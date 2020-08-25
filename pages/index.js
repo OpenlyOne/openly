@@ -1,3 +1,5 @@
-const Index = () => <p>Hello World!</p>;
+import { Typography } from "@material-ui/core";
+
+const Index = () => <Typography variant="body1">Hello World!</Typography>;
 
 export default Index;
