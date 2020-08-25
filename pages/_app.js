@@ -20,7 +20,10 @@ class MyApp extends App {
     return (
       <>
         <Head>
-          <title>My page</title>
+          <title>
+            Open Impact: 10 Organizations that are Changing the World with Open
+            Principles
+          </title>
           {/* Use minimum-scale=1 to enable GPU rasterization */}
           <meta
             name="viewport"
