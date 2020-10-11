@@ -11,8 +11,8 @@ const Index = () => (
         Open Impact: 10 Organizations that are Changing the World with Open
         Principles
       </Typography>
-      <Typography variant="h2" style={{ color: "gray" }}>
-        Creative Commons Summit
+      <Typography variant="h2" color="primary" style={{ fontWeight: 500 }}>
+        Session at Creative Commons Summit 2020
       </Typography>
     </Box>
     <Box>
