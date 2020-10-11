@@ -6,22 +6,16 @@ const OrganizerImage = styled.img`
   border-radius: 50%;
 `;
 
-const OrganizerProfile = () => (
+const OrganizerProfile = ({ image, name, email, children }) => (
   <>
-    <OrganizerImage src="https://jessy.io/image/https%3A%2F%2Flh3.googleusercontent.com%2F-84PzvVGRb04%2FAAAAAAAAAAI%2FAAAAAAAAAAc%2FlEoeNqsgEbA%2Fphoto.jpg?width=40&userId=&cache=v2" />
+    <OrganizerImage src={image} />
     <Typography variant="h4" style={{ fontWeight: 500 }}>
-      Jessy Huang
+      {name}
     </Typography>
-    <Typography variant="body1" gutterBottom>
-      jessy(at)open.ly
+    <Typography variant="body1" style={{ fontWeight: 300 }} gutterBottom>
+      {email}
     </Typography>
-    <Typography variant="body1">
-      Started a startup to bring open-source to document collaboration and
-      knowledge management but failed. Still excited about augmenting our
-      collective intelligence through open collaboration and am looking at
-      solutions to tackle this problem. Working on cool and audacious projects?
-      Reach me via jessy@zhenfund.com
-    </Typography>
+    <Typography variant="body1">{children}</Typography>
   </>
 );
 
