@@ -1,7 +1,8 @@
 import React from "react";
 import App from "next/app";
 import Head from "next/head";
-import { ThemeProvider } from "@material-ui/styles";
+import { ThemeProvider as MuiThemeProvider } from "@material-ui/styles";
+import { ThemeProvider } from "styled-components";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import theme from "helpers/theme";
 
@@ -30,11 +31,13 @@ class MyApp extends App {
             content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no"
           />
         </Head>
-        <ThemeProvider theme={theme}>
-          {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
-          <CssBaseline />
-          <Component {...pageProps} />
-        </ThemeProvider>
+        <MuiThemeProvider theme={theme}>
+          <ThemeProvider theme={theme}>
+            {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
+            <CssBaseline />
+            <Component {...pageProps} />
+          </ThemeProvider>
+        </MuiThemeProvider>
       </>
     );
   }
