@@ -16,15 +16,24 @@ const Index = () => (
       </Typography>
     </Box>
     <Box>
-      <Typography variant="h2" gutterBottom>
-        Thursday, 22nd October, 2020
-      </Typography>
-      <Typography variant="h2" gutterBottom>
-        14:00 - 15:00 UTC
-      </Typography>
-      <Typography variant="h2" gutterBottom>
-        Virtual Session
-      </Typography>
+      <Box marginBottom={2}>
+        <Typography variant="h2">Thursday, 22nd October, 2020</Typography>
+      </Box>
+      <Box marginBottom={2}>
+        <Typography variant="h2">14:00 - 15:00 UTC</Typography>
+        <Typography
+          component="a"
+          variant="body1"
+          gutterBottom
+          href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Open+Impact%3A+10+Organizations+that+are+Changing+the+World+with+Open+Principles&iso=20201022T14&p1=1440&ah=1"
+          target="_blank"
+        >
+          Convert to my timezone
+        </Typography>
+      </Box>
+      <Box marginBottom={2}>
+        <Typography variant="h2">Virtual Session</Typography>
+      </Box>
       <Box marginTop={5}>
         <Button
           component="a"
