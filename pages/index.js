@@ -227,13 +227,37 @@ const Index = () => (
       <Box marginY={3}>
         <Grid container spacing={5}>
           <Grid item md={4} xs={12} align="center">
-            <OrganizerProfile />
+            <OrganizerProfile
+              image="/static/jessy.jpeg"
+              name="Jessy Huang"
+              email="jessy(at)open.ly"
+            >
+              Started a startup to bring open-source to document collaboration
+              and knowledge management but failed. Still excited about
+              augmenting our collective intelligence through open collaboration
+              and am looking at solutions to tackle this problem.
+            </OrganizerProfile>
           </Grid>
           <Grid item md={4} xs={12} align="center">
-            <OrganizerProfile />
+            <OrganizerProfile
+              image="/static/bodo.jpeg"
+              name="Bodo Hoenen"
+              email="bodo(at)dev4x.com"
+            >
+              Developing audacious projects in Education and Open Innovation.
+            </OrganizerProfile>
           </Grid>
           <Grid item md={4} xs={12} align="center">
-            <OrganizerProfile />
+            <OrganizerProfile
+              image="/static/finn.jpg"
+              name="Finn Woelm"
+              email="finn.woelm(at)gmail.com"
+            >
+              Data scientist and analyst at the United Nations Sustainable
+              Development Solutions Network, where I help to track and monitor
+              the progress of all 193 UN Member States towards the achievement
+              of the 17 Sustainable Development Goals.
+            </OrganizerProfile>
           </Grid>
         </Grid>
       </Box>
