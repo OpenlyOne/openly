@@ -67,10 +67,10 @@ const Index = () => (
         Speakers
       </Typography>
       <SpeakerCard
-        name="TBD"
+        name="Eric"
         organization="Center for Interdisciplinary Research"
-        image="/static/unknown.png"
-        headline="TBD"
+        image="/static/eric.jpeg"
+        headline="Eric Cherel, Chief Information Officer at the Center for Interdisciplinary Research"
         link="https://www.cri-paris.org/en"
       >
         The <Emphasis>Center for Interdisciplinary Research</Emphasis> is
