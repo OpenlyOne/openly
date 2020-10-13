@@ -121,14 +121,14 @@ const Index = () => (
         headline="Bodo Hoenen, Founder of Dev4X, Open Innovator"
         link="https://www.dev4x.com/"
       >
-        At <Emphasis>Dev4X</Emphasis>, we (in collaboration with the Center for
-        Interdisciplinary Research, supported by UNESCO and backed by the ASML
-        foundation) are building a learning platform for solving grand
-        challenges. The project aims to help innovators create "innovation
-        bricks" that tackle specific problems, helps entrepreneurs use those
-        bricks, stack them together and create viable businesses, and help
-        investors fund successful innovation in a positive-sum economy, where an
-        investment in 1 is an investment in many.
+        <Emphasis>Dev4X</Emphasis> was a side-project that turned into a
+        fulltime mission. Started several years ago to work on developing an
+        open crowd-generated Learning Map to help underserved kids learn. To
+        then include developing a Doing Map, an open learner-generated map that
+        ties everything you can learn to tangible problems you can solve in the
+        real world. Now working together with Gooru on their GPS for learning,
+        and the CRI + UNESCO on their project-based learning initiatives, this
+        work is rapidly developing as a collective global project.
       </SpeakerCard>
       <SpeakerCard
         name="Lluvy"
