@@ -67,13 +67,13 @@ const Index = () => (
         Speakers
       </Typography>
       <SpeakerCard
-        name="Eric"
+        name="Iryna"
         organization="Center for Interdisciplinary Research"
-        image="/static/eric.jpeg"
-        headline="Eric Cherel, Chief Information Officer at the Center for Interdisciplinary Research"
+        image="/static/iryna.jpeg"
+        headline="Iryna Nikolayeva, Product Manager at the Center for Interdisciplinary Research"
         link="https://www.cri-paris.org/en"
       >
-        The <Emphasis>Center for Interdisciplinary Research</Emphasis> is
+        The <Emphasis>Center for Interdisciplinary Research (CRI)</Emphasis> is
         co-constructing and sharing new ways of learning, teaching, conducting
         research and mobilizing collective intelligence in the fields of life,
         learning and digital sciences, in order to face the world's sustainable
