@@ -133,17 +133,16 @@ const Index = () => (
       <SpeakerCard
         name="Lluvy"
         organization="UpLink"
-        image="/static/unknown.png"
-        headline="Lluvy Liu"
+        image="/static/lluvy.jpeg"
+        headline="Lluvy Liu, former Global Leadership Fellow at the World Economic Forum"
         link="https://uplink.weforum.org/uplink/s/"
       >
-        Launching with dedicated sprints for Ocean solutions and COVID-19
-        challenges, <Emphasis>UpLink</Emphasis> is becoming the open digital
-        platform for mass participation to accelerate progress on the UN
-        Sustainable Development Goals (SDGs). UpLink enables the next generation
-        of mission-driven entrepreneurs and young innovators to join forces with
-        a trusted community of leading organisations, to deliver impact at
-        scale.
+        Lluvy has recently helped to launch the Trillion Trees Challenge on{" "}
+        <Emphasis>UpLink</Emphasis>, a digital platform to crowdsource
+        innovations to accelerate the delivery of the UN SDGs. She will share
+        her experience with how UpLink is able to surface and galvanize youth,
+        change-makers, entrepreneurs and innovators for a better world, and link
+        them up to the network and ecosystem of world leaders at the Forum.
       </SpeakerCard>
       <SpeakerCard
         name="Bill"
