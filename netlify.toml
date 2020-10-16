@@ -2,3 +2,9 @@
   command   = "npm run build"
   functions = "out_functions"
   publish   = "out_publish"
+
+[[redirects]]
+  from = "/register"
+  to = "https://mailchi.mp/creativecommons/678t4d8ah2"
+  status = 301
+  force = false

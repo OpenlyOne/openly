@@ -38,7 +38,7 @@ const Index = () => (
         <Button
           component="a"
           size="large"
-          href="https://mailchi.mp/creativecommons.org/cc-summit-intent-to-register"
+          href="/register"
           target="_blank"
           variant="contained"
           color="primary"
