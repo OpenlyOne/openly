@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Box, Button, Grid, Typography } from "@material-ui/core";
 import Layout from "components/Layout";
 import SpeakerCard from "components/SpeakerCard";
@@ -35,19 +36,19 @@ const Index = () => (
         <Typography variant="h2">Virtual Session</Typography>
       </Box>
       <Box marginTop={5}>
-        <Button
-          component="a"
-          size="large"
-          href="/register"
-          target="_blank"
-          variant="contained"
-          color="primary"
-          style={{
-            fontSize: "1.25rem",
-          }}
-        >
-          Register now · Free
-        </Button>
+        <Link href="/register" passHref>
+          <Button
+            component="a"
+            size="large"
+            variant="contained"
+            color="primary"
+            style={{
+              fontSize: "1.25rem",
+            }}
+          >
+            Register now · Free
+          </Button>
+        </Link>
       </Box>
     </Box>
     <Box marginY={8}>

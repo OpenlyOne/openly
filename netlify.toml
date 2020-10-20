@@ -4,12 +4,6 @@
   publish   = "out_publish"
 
 [[redirects]]
-  from = "/register"
-  to = "https://mailchi.mp/creativecommons/678t4d8ah2"
-  status = 301
-  force = false
-
-[[redirects]]
   from = "/webinar"
   to = "https://docs.google.com/forms/d/e/1FAIpQLSdFDUevRd3_UElDFEA8zkYvesdNxHYrtYWXCFHiDVAynvIZOg/viewform"
   status = 301
