@@ -161,19 +161,6 @@ const Index = () => (
         and as few tools as possible.
       </SpeakerCard>
       <SpeakerCard
-        name="TBD"
-        organization="Impacton"
-        image="/static/unknown.png"
-        headline="TBD"
-        link="https://impacton.org/"
-      >
-        We turn projects into movements. <Emphasis>Impacton</Emphasis> is
-        inspired by the talent and energy of individuals and organisations
-        across the world, working to solve our biggest challenges and create a
-        better tomorrow. Our mission is to collect their impact formulas and
-        make their Blueprints accessible to anyone who needs them.
-      </SpeakerCard>
-      <SpeakerCard
         name="David"
         organization="Open Streets Project / 8 80 Cities"
         image="/static/david.jpg"
