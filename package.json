@@ -9,6 +9,7 @@
     "next-on-netlify": "^2.5.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-linkify": "^1.0.0-alpha",
     "styled-components": "^5.2.0"
   },
   "devDependencies": {

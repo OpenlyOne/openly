@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Box, Button, Grid, Typography } from "@material-ui/core";
+import Linkify from "react-linkify";
 import Layout from "components/Layout";
 import SpeakerCard from "components/SpeakerCard";
 import OrganizerProfile from "components/OrganizerProfile";
@@ -32,28 +33,36 @@ const Index = () => (
         — it's more or less like any other video chat software, so hopefully you
         will feel right at home. No download needed, but you do need to create
         an account.
-        <ol>
-          <li>
-            Use <strong>Google Chrome</strong> or{" "}
-            <strong>Mozilla Firefox</strong>
-          </li>
-          <li>
-            Create a <strong>Hopin account</strong>: https://hopin.to/sign_up
-          </li>
-          <li>
-            Click <strong>Join Event</strong> on
-            https://app.hopin.to/events/cc-global-summit
-          </li>
-          <li>Go to https://app.hopin.to/events/cc-global-summit/sessions</li>
-          <li>
-            Click on{" "}
-            <strong>
-              Open Impact: 10 Organizations that are Changing the World with
-              Open Principles
-            </strong>{" "}
-            (the session will not be visible until 5 minutes before it starts)
-          </li>
-        </ol>
+        <Linkify
+          componentDecorator={(decoratedHref, decoratedText, key) => (
+            <a target="_blank" href={decoratedHref} key={key}>
+              {decoratedText}
+            </a>
+          )}
+        >
+          <ol>
+            <li>
+              Use <strong>Google Chrome</strong> or{" "}
+              <strong>Mozilla Firefox</strong>
+            </li>
+            <li>
+              Create a <strong>Hopin account</strong>: https://hopin.to/sign_up
+            </li>
+            <li>
+              Click <strong>Join Event</strong> on
+              https://app.hopin.to/events/cc-global-summit
+            </li>
+            <li>Go to https://app.hopin.to/events/cc-global-summit/sessions</li>
+            <li>
+              Click on{" "}
+              <strong>
+                Open Impact: 10 Organizations that are Changing the World with
+                Open Principles
+              </strong>{" "}
+              (the session will not be visible until 5 minutes before it starts)
+            </li>
+          </ol>
+        </Linkify>
         You can already take care of steps 1-4 right now. After step 4, your
         screen will look similar to the image below. Each of those cards/boxes
         is one Creative Commons Summit session. On Thursday, from 1.55pm UTC,
